@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyAirline - Welcome</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to MyAirline</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#flights">Flights</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Book Your Flights with Ease</h2>
+        <p>Welcome to MyAirline. We offer convenient booking services for your travels.</p>
+    </section>
+
+    <section id="flights">
+        <h2>Find Flights</h2>
+        <form action="search.php" method="GET">
+            <label for="from">From:</label>
+            <input type="text" id="from" name="from" required>
+
+            <label for="to">To:</label>
+            <input type="text" id="to" name="to" required>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <button type="submit">Search Flights</button>
+        </form>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Online Booking</li>
+            <li>Flight Status Updates</li>
+            <li>Baggage Information</li>
+            <li>Customer Support</li>
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>MyAirline is a leading airline committed to providing exceptional service to our passengers.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any inquiries or need assistance, please feel free to contact us.</p>
+        <address>
+            Email: info@myairline.com<br>
+            Phone: 1-800-AIRLINE
+        </address>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 MyAirline. All rights reserved.</p>
+    </footer>
+
+  <script type="text/javascript" charset="utf-8">
+  (function (g, e, n, es, ys) {
+    g['_genesysJs'] = e;
+    g[e] = g[e] || function () {
+      (g[e].q = g[e].q || []).push(arguments)
+    };
+    g[e].t = 1 * new Date();
+    g[e].c = es;
+    ys = document.createElement('script'); ys.async = 1; ys.src = n; ys.charset = 'utf-8'; document.head.appendChild(ys);
+  })(window, 'Genesys', 'https://apps.mypurecloud.de/genesys-bootstrap/genesys.min.js', {
+    environment: 'prod-euc1',
+    deploymentId: 'ec47c2ca-e8cd-4e8d-94cc-91c292733be1'
+  });
+</script>
+  
+</body>
+</html>
